@@ -298,7 +298,121 @@ let age = -65;
 //     addNum(16, 34);
 //     addNum(23, 45);
 
+// function expression
+// function greet (name, gender, score) {
+//     let nme2 = name
+//     console.log("Hello, world!", name, gender);
+// }
+// function returnSumof2Numbers(num1, num2,){
+//     let result = num1 + num2;
+//     console.log(result);  
+//       return result;
+// console.log("Hello, world!", name, gender)
+// }
+// sumof3numbers(4, 5, 6)
+// greet("Mary", 'female', 90);
+// greet("ife", 'male');
+
+// // function declaration
+// let sumof3numbers = function(num1, num2, num3){
+//     let result = num1 +num2 + num3;
+//     console.log(result);
+// }
+
+// function getSumofScores (score1, score2){
+//     let result = score1 + score2;
+//     return result;
+// }
 
 
+// function takeInputFromUser(){
+// let userResponse = prompt('Enter any number');
+// console.log(userResponse);
+// }
+// takeInputFromUser();
 
+// function subtractTwoNumbers(num1, num2){
+//     let result = num1 - num2;
+//     return result;
+// }
+// console.log(subtractTwoNumbers(23, 58));
 
+//create a function that takeanyNUMBERFrom a user ans check if that num is greater than 6
+
+// function checkIfGreaterThanSix(){
+//     let userResponse = prompt('Enter a number');
+//     if (userResponse > 6){
+//         console.log (`the number ${userResponse} is greater than six`);
+//     }
+//     else if (userResponse < 6){
+//         console.log (`the number ${userResponse} is less than six`);
+//     }
+//     else{
+//         console.log (`the number ${userResponse} is equal to six`);
+//     }
+// }
+//         checkIfGreaterThanSix();
+//create a function that takes inputs and return the character of the input
+
+// function getStringLength() {
+//     let userResponse = prompt('Enter a string');
+//     let result = userResponse.length;
+//     console.log(`The length of the string is ${result}`);
+//     return result;
+// }
+// getStringLength();
+
+// let checkCharacters = function () {
+//     let userName = prompt ('Enter your name');
+//     console.log('Your name is ' + userName.length + 'long')
+// }
+// checkCharacters ()
+
+// create a function that takes 4 parameters and the function will take 4 numbers and return the highest number
+
+// function getHighestNumber(num1, num2, num3, num4) {
+//     let highest = num1;
+//     if (num2 > highest){
+//         highest = num2;
+//     }
+//     else if (num3 > highest) {
+//         highest = num3;
+//     }
+//     else if (num4 > highest){
+//         highest = num4;
+//     }
+//     return highest;
+// console.log(getHighestNumber(27,45, 69, 80));
+// }
+// console.log(getHighestNumber(27,45, 69, 80));
+
+// getHighestNunber();
+// create a number that takes a number and checks if the number is even or odd
+
+// Arrow functions
+
+// const greetMe = () => {}
+
+// create an arrow function that gives the length of userInput
+// let lengthOfuserInput = () => {
+//     let userInput = prompt('Enter a string');
+//     let result = userInput.length;
+//     console.log(`The length of the string is ${result}`);
+//     return result;
+// }
+
+// New way of writing function
+// let checkCharacters = () => {}
+// instead of 
+// let checkCharacters = function () {}
+// let checkEvenNumber = () => {
+//     let userNumber = prompt('Enter any number');
+//     if ((userNumber % 2)=== 0) {
+//         console.log ('Number is even');
+//     }
+// }
+// checkEvenNumber();
+
+// // Assignment
+// write a composition/article on Hoisting and scope with examples
+// create an account on medium. "Javascript hoisting and scope for beginners"
