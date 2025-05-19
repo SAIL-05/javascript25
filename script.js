@@ -209,7 +209,7 @@ let age = -65;
 // methods deals wuth the action perculiar to the datatype
 
 // properties
-// methods are properties of an objectthat can be used to perform actions
+// methods are properties of an object that can be used to perform actions
 // array /**
 //  * 
 //  */
@@ -315,7 +315,7 @@ let age = -65;
 
 // // function declaration
 // let sumof3numbers = function(num1, num2, num3){
-//     let result = num1 +num2 + num3;
+//     let result = num1 + num2 + num3;
 //     console.log(result);
 // }
 
@@ -337,7 +337,7 @@ let age = -65;
 // }
 // console.log(subtractTwoNumbers(23, 58));
 
-//create a function that takeanyNUMBERFrom a user ans check if that num is greater than 6
+//create a function that take any NUMBER From a user and check if that num is greater than 6
 
 // function checkIfGreaterThanSix(){
 //     let userResponse = prompt('Enter a number');
@@ -368,7 +368,7 @@ let age = -65;
 // }
 // checkCharacters ()
 
-// create a function that takes 4 parameters and the function will take 4 numbers and return the highest number
+// create a function that takes 4 numbers and return the highest number
 
 // function getHighestNumber(num1, num2, num3, num4) {
 //     let highest = num1;
@@ -386,8 +386,8 @@ let age = -65;
 // }
 // console.log(getHighestNumber(27,45, 69, 80));
 
-// getHighestNunber();
-// create a number that takes a number and checks if the number is even or odd
+// getHighestNumber();
+// create a function that takes a number and checks if the number is even or odd
 
 // Arrow functions
 
@@ -416,3 +416,60 @@ let age = -65;
 // // Assignment
 // write a composition/article on Hoisting and scope with examples
 // create an account on medium. "Javascript hoisting and scope for beginners"
+
+// Write an arrow function that divides two numbers
+
+// let divideTwoNumbers = (num1, num2) =>{
+//     let result = num1 / num2;
+//     console.log(result);
+//     return result;
+// }
+// divideTwoNumbers(50, 5);
+
+// Write a function that checks if a number is even or odd.
+// function checkEvenorOdd(){
+//     let num = prompt(`Enter a number`);
+//     if((num % 2) === 0){
+//         console.log(`${num} is even`);
+//     }
+//  else{
+//         console.log(`${num} is odd`);
+//     }
+
+// }
+// checkEvenorOdd();
+
+// Write a function to return the largest of three numbers
+// function largestofThreeNum(){
+//     let num1 = prompt("Enter the first number");
+//     let num2 = prompt("Enter the second number");
+//     let num3 = prompt("Enter the third number");
+//     console.log(Math.max(num1, num2, num3));
+    
+// }
+// largestofThreeNum();
+
+// if (num1 > num2 && num1 > num3){
+    //     console.log(`${num1} is the largest number`);
+    // }
+//     else if (num2 > num1 && num2 > num3){
+//         console.log(`${num2} is the largest number`);
+//     }
+//     else if (num3 > num1 && num3 > num2){
+//         largest = num3;
+//     }
+// }
+
+// }
+
+// Write a function that reverses a string
+// let myString = "Hello, World!";
+// console.log(myString.split(""). reverse(). join(""));
+
+// function reversemyString (){ 
+//     let myString = "Hello, World!";
+
+// console.log(myString.split("").reverse(). join(""));}
+// reversemyString();
+// Write a function that returns the longest word in a sentence.
+
