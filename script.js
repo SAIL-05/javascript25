@@ -473,3 +473,63 @@ let age = -65;
 // reversemyString();
 // Write a function that returns the longest word in a sentence.
 
+// loop
+// four loops
+// 3 parts of four loops
+// initializer
+// conditional
+// Increment/ Decrement
+
+// function greetMe (name) {
+
+// }
+// greetMe('dfdffdfd')
+// for(initializer, conditionals, increment){
+
+// }
+// if(i< 10)
+// for(let i = 0; i < 10; i++){
+//     console.log('This is the value of i', i)
+// }
+// console.log('We are running loops')
+
+// class work
+// for(let startingIndex = 1; startingIndex < 50; startingIndex++){
+// if( startingIndex % 2 === 0){
+//     console.log(startingIndex, 'is an even number')
+// }
+// else{
+//     console.log(startingIndex, 'is an odd number')
+// }
+// }
+
+// for(let a = 5; a<= 20; a+= 2) {
+//     console.log('This is the value of a', a)
+// }
+// for(let a = 5; a<= 20; a++) {
+//     console.log('This is the value of a', a);
+// }
+// let scores = [1,2,3,4,5,6,7,8,9,]
+// for(let b = 0; b < 9; b++){
+//     console.log('scores=', b)
+// }
+//console.log('scores =', scores[b]);
+
+// let scores = [1,2,3,4,5,6,7,8,9,];
+// console.log(scores[0])
+// console.log(scores[2])
+// console.log(scores[4])
+
+// let scores = [50, 60, 70, 80, 90];
+// let num = 1;
+// let num2 = 1;
+// let name = 'ife'
+// console.log('ife')
+// console.log(name)
+
+// scores[1]=== scores[num] === scores[num2]
+// console.log(scores[0]);
+// console.log(scores[1]);
+// console.log(scores[2]);
+// console.log(scores[3]);
+// console.log(scores[4]);
