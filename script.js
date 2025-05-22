@@ -150,7 +150,7 @@
 
 //Write a program that tells if a user is legible to vote
 
-let age = -65;
+// let age = -65;
 
 // let voting = age < 18 ? "You cannot vote" : "You can vote";
 // console.log(voting);
@@ -533,3 +533,45 @@ let age = -65;
 // console.log(scores[2]);
 // console.log(scores[3]);
 // console.log(scores[4]);
+
+// for(let u = 1; u<=50; u++){
+//     console.log('This is the value of u', u);
+// }
+
+//DOM stands for document object model is an object representation of a webpage
+// window is the entire tab while document is the webpage, everything is part of the webpage
+
+// get element by class name
+
+// console.log('Welcome to SAIL')
+
+// console.log(document.getElementsByClassName("text"));
+// console.log(document.getElementById("hr"));
+// console.log(document.getElementById("btn").innerText);
+// console.log(document.querySelector("home"));
+
+// four ways of targeting elements in class name
+// document.getElementById
+// document.getElementsByClassName
+// document.querySelector
+// document.querySelectorAll
+
+// textContent 
+// innerHTML
+// innerText
+// difference btw textContent, innerHTML and innerText
+
+// create an object
+// let student = {
+//     name: "Martins",
+//     nationality: "Ghanian",
+//     status: "single",
+// }
+// console.log(student);
+// student.name
+// student.nationality
+// student.status
+
+// console.log(document.querySelectorAll('li')[2].innerText);
+// document.getElementById('hr').textContent = 'i have been changed by javascript';
+// document.querySelectorAll('li')[2].textContent = 'spring onions'
