@@ -575,3 +575,24 @@
 // console.log(document.querySelectorAll('li')[2].innerText);
 // document.getElementById('hr').textContent = 'i have been changed by javascript';
 // document.querySelectorAll('li')[2].textContent = 'spring onions'
+
+// Event listeners
+// Event listeners is the interaction within a webpage e.g. click, hover, scroll, onclick, onmouseover etc
+// document.getElementBy Id('btn).addEventListener('click', function() { console.log('Button clicked')}
+
+// let Header = document.getElementById("header");
+// Header.style.color = "brown";
+// Header.style.backgroundColor = "lightblue";
+// Header.style.fontSize = "30px";
+
+// function showAlert() {
+//     alert("Button clicked!")
+// }
+
+let header = document.getElementById("open");
+const change = () => {header.innerHTML = "mary";}
+
+
+
+
+
